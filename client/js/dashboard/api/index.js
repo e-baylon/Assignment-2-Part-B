@@ -2,15 +2,15 @@
 // developmentUrl = 'http://localhost:5000/
 
 const api = {
-    getAllDepartments: 'http://localhost:5000/api/departments/',
+    getAllDepartments: 'http://assesment-02-part-b.herokuapp.com/api/departments/',
     // Snippet #5
-    updateEmployee: `http://localhost:5000/api/departments/employee/update`,
+    updateEmployee: `http://assesment-02-part-b.herokuapp.com/api/departments/employee/update`,
 
     getDepartment: (name) => {
-        return `http://localhost:5000/api/departments/name/${name}`
+        return `http://assesment-02-part-b.herokuapp.com/api/departments/name/${name}`
     },
     deleteEmployee: (id) => {
-        return `http://localhost:5000/api/departments/employee/id/${id}`
+        return `http://assesment-02-part-b.herokuapp.com/api/departments/employee/id/${id}`
     }
 }
 
